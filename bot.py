@@ -91,6 +91,6 @@ dp.add_handler(CommandHandler("send", send_project))
 dp.add_handler(CallbackQueryHandler(button_handler))
 dp.add_handler(CommandHandler("start", start_handler))
 
-updater.start_polling()
+updater.bot.delete_webhook(drop_pending_updates=True)
 updater.idle()
 
