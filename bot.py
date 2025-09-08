@@ -6,7 +6,7 @@ import os
 
 # 🔑 Tokenlar
 TOKEN = "8017914106:AAH37SYFd_hKz1BfzAct5dScXw_INGsUaL8"
-HF_TOKEN = "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"
+HF_TOKEN = "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"
 CHANNEL_ID = "-1002752698442"
 BOT_USERNAME = "ebblender3D_bot"
 
