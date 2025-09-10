@@ -1,4 +1,4 @@
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
+        from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 from telegram.request import HTTPXRequest
 from huggingface_hub import hf_hub_download
@@ -15,8 +15,8 @@ logger = logging.getLogger(__name__)
 
 # 🔑 Environment o‘zgaruvchilarini yuklash
 load_dotenv()
-TOKEN = os.getenv("TELEGRAM_TOKEN", "8017914106:AAEXgpSioA19C3VhMM9qjeRtiCPgviOtKzQ")
-HF_TOKEN = os.getenv("HF_TOKEN", "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")
+TOKEN = os.getenv("TELEGRAM_TOKEN", "8017914106:AAH37SYFd_hKz1BfzAct5dScXw_INGsUaL8")
+HF_TOKEN = os.getenv("HF_TOKEN", "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")
 CHANNEL_ID = "-1002752698442"
 BOT_USERNAME = "ebblender3D_bot"
 
