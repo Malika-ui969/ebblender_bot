@@ -15,8 +15,8 @@ logger = logging.getLogger(__name__)
 
 # 🔑 Environment o‘zgaruvchilarini yuklash
 load_dotenv()
-TOKEN = os.getenv("TELEGRAM_TOKEN", "8017914106:AAH37SYFd_hKz1BfzAct5dScXw_INGsUaL8")
-HF_TOKEN = os.getenv("HF_TOKEN", "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")
+TOKEN = os.getenv("TELEGRAM_TOKEN", "8017914106:AAEXgpSioA19C3VhMM9qjeRtiCPgviOtKzQ")
+HF_TOKEN = os.getenv("HF_TOKEN", "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")
 CHANNEL_ID = "-1002752698442"
 BOT_USERNAME = "ebblender3D_bot"
 
